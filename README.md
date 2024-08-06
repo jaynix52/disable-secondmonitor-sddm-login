@@ -16,7 +16,7 @@ paste
 
  - /usr/share/sddm/scripts/Xsetup 
  - #!/bin/sh
- - Xsetup - run as root before the login dialog appears
+ - #Xsetup - run as root before the login dialog appears
  - xrandr --output HDMI-1 --off
 
 Then finally reboot.
