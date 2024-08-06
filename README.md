@@ -12,10 +12,10 @@ After identifying your second monitor
 Type `sudo nano /usr/share/sddm/scripts/Xsetup `
 paste 
  - ```xrandr --output HDMI-1 --off``` 
-
+`
 #!/bin/sh
 Xsetup - run as root before the login dialog appears
 xrandr --output HDMI-1 --off
-
+`
 Then finally reboot.
 
